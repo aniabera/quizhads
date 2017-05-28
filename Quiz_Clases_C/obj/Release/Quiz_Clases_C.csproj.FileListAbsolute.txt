@@ -1,0 +1,5 @@
+C:\Users\ania\Documents\Visual Studio 2013\Projects\Quiz_C\Quiz_Clases_C\bin\Release\Quiz_Clases_C.dll
+C:\Users\ania\Documents\Visual Studio 2013\Projects\Quiz_C\Quiz_Clases_C\bin\Release\Quiz_Clases_C.pdb
+C:\Users\ania\Documents\Visual Studio 2013\Projects\Quiz_C\Quiz_Clases_C\obj\Release\Quiz_Clases_C.csprojResolveAssemblyReference.cache
+C:\Users\ania\Documents\Visual Studio 2013\Projects\Quiz_C\Quiz_Clases_C\obj\Release\Quiz_Clases_C.dll
+C:\Users\ania\Documents\Visual Studio 2013\Projects\Quiz_C\Quiz_Clases_C\obj\Release\Quiz_Clases_C.pdb

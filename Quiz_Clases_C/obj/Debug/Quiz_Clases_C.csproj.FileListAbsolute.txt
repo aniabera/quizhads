@@ -1,0 +1,10 @@
+c:\Users\ania\documents\visual studio 2013\Projects\Quiz_C\Quiz_Clases_C\bin\Debug\Quiz_Clases_C.dll
+c:\Users\ania\documents\visual studio 2013\Projects\Quiz_C\Quiz_Clases_C\bin\Debug\Quiz_Clases_C.pdb
+c:\Users\ania\documents\visual studio 2013\Projects\Quiz_C\Quiz_Clases_C\obj\Debug\Quiz_Clases_C.csprojResolveAssemblyReference.cache
+c:\Users\ania\documents\visual studio 2013\Projects\Quiz_C\Quiz_Clases_C\obj\Debug\Quiz_Clases_C.dll
+c:\Users\ania\documents\visual studio 2013\Projects\Quiz_C\Quiz_Clases_C\obj\Debug\Quiz_Clases_C.pdb
+C:\Users\IRATI\Dropbox\IRANIA RULES\Quiz_C\Quiz_Clases_C\bin\Debug\Quiz_Clases_C.dll
+C:\Users\IRATI\Dropbox\IRANIA RULES\Quiz_C\Quiz_Clases_C\bin\Debug\Quiz_Clases_C.pdb
+C:\Users\IRATI\Dropbox\IRANIA RULES\Quiz_C\Quiz_Clases_C\obj\Debug\Quiz_Clases_C.csprojResolveAssemblyReference.cache
+C:\Users\IRATI\Dropbox\IRANIA RULES\Quiz_C\Quiz_Clases_C\obj\Debug\Quiz_Clases_C.dll
+C:\Users\IRATI\Dropbox\IRANIA RULES\Quiz_C\Quiz_Clases_C\obj\Debug\Quiz_Clases_C.pdb
