@@ -25,12 +25,12 @@ namespace Quiz_C
         {
             String encPass = encriptar(PassTxt.Text);
 
-            if (LC.esAlumno(mailTxt.Text, encPass))
+            if (LC.esAlumno(mailTxt.Text, PassTxt.Text))
             {
                 Session["alumno"] = mailTxt.Text;
                 Response.Redirect("Alumno/Alumno.aspx");
             }
-            else if (LC.esProfesor(mailTxt.Text, encPass))
+            else if (LC.esProfesor(mailTxt.Text, PassTxt.Text))
             {
                 Session["profesor"] = mailTxt.Text;
                 Response.Redirect("Profesor/Profesor.aspx");

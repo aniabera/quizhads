@@ -28,7 +28,7 @@ namespace Quiz_C
                 Label1.Text = "Este email ya ha sido registrado";
             else {
                 String encPass = encriptar(passTxt.Text);
-                Label1.Text = LC.registrar(mailTxt.Text, nombreTxt.Text, dniTxt.Text, pregTxt.Text, respTxt.Text, encPass);
+                Label1.Text = LC.registrar(mailTxt.Text, nombreTxt.Text, dniTxt.Text, pregTxt.Text, respTxt.Text, passTxt.Text);
             }
         }
 

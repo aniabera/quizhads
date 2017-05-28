@@ -36,35 +36,19 @@
         <br />
         <br />
         Escoje la respuesta correcta:<br />
-        <br />
-        <asp:Panel ID="Panel3" runat="server" Height="79px">
-            <asp:RadioButtonList ID="RadioButtonList4" runat="server" DataSourceID="SqlDataSource3" DataTextField="Resp1" DataValueField="Resp1" OnSelectedIndexChanged="RadioButtonList4_SelectedIndexChanged">
-            </asp:RadioButtonList>
-            <asp:RadioButtonList ID="RadioButtonList5" runat="server" DataSourceID="SqlDataSource4" DataTextField="Resp2" DataValueField="Resp2" OnSelectedIndexChanged="RadioButtonList5_SelectedIndexChanged" style="height: 27px">
-            </asp:RadioButtonList>
-            <asp:RadioButtonList ID="RadioButtonList6" runat="server" DataSourceID="SqlDataSource5" DataTextField="Resp3" DataValueField="Resp3" OnSelectedIndexChanged="RadioButtonList6_SelectedIndexChanged">
-            </asp:RadioButtonList>
+        <asp:Panel ID="resp" runat="server" Height="71px" Width="649px">
+            <asp:CheckBox ID="resp1" runat="server" OnCheckedChanged="resp1_CheckedChanged" />
+            <br />
+            <asp:CheckBox ID="resp2" runat="server" OnCheckedChanged="resp2_CheckedChanged" />
+            <br />
+            <asp:CheckBox ID="resp3" runat="server" OnCheckedChanged="resp3_CheckedChanged" />
         </asp:Panel>
-        <asp:SqlDataSource ID="SqlDataSource5" runat="server" ConnectionString="<%$ ConnectionStrings:HADS15_TareasConnectionString %>" SelectCommand="SELECT [Resp3] FROM [Preguntas] WHERE ([IdPreg] = @IdPreg)">
-            <SelectParameters>
-                <asp:SessionParameter Name="IdPreg" SessionField="IDPreg" Type="Int32" />
-            </SelectParameters>
-        </asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource4" runat="server" ConnectionString="<%$ ConnectionStrings:HADS15_TareasConnectionString %>" SelectCommand="SELECT [Resp2] FROM [Preguntas] WHERE ([IdPreg] = @IdPreg)">
-            <SelectParameters>
-                <asp:SessionParameter Name="IdPreg" SessionField="IDPreg" Type="Int32" />
-            </SelectParameters>
-        </asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:HADS15_TareasConnectionString %>" SelectCommand="SELECT [Resp1] FROM [Preguntas] WHERE ([IdPreg] = @IdPreg)">
-            <SelectParameters>
-                <asp:SessionParameter Name="IdPreg" SessionField="IDPreg" Type="Int32" />
-            </SelectParameters>
-        </asp:SqlDataSource>
         <br />
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Aceptar" ForeColor="#FF0066" />
         <br />
         <br />
         <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Alumno/EscogerTema.aspx" ForeColor="#FF0066">Volver a la elección de tema</asp:LinkButton>
+        <br />
         <br />
         <br />
     
